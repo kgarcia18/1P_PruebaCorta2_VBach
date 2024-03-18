@@ -1,8 +1,22 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .cronometro{
     font-size: 10rem;
 }
+
 .boton{
-    width: 5rem;
+    margin-top: 1rem;
+    width: 20rem;
     height: 5rem;
-    background-color: rgb(228, 165, 129);
+    border: 1px solid black;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
 }
